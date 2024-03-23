@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title></title>
+  </head>
+
+  <body>
+    <div id="container">
+      <form id="formulario-login">
+        <div class="parabx">
+          <h2 class="text-login">Login</h2>
+          <hr />
+        </div>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+            required
+          />
+        </div>
+        <div class="campo">
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Digite sua senha"
+            required
+          />
+        </div>
+        <div class="links">
+          <a href="" id="link-esqueceu-senha" class="link-esqueceu-senha"
+            >Esqueceu sua senha?</a
+          >
+          <a href="pages/cadastre.html" id="link-cadastro" class="link-cadastro"
+            >Cadastre-se</a
+          >
+        </div>
+        <button type="submit" id="entrar" class="botao">Entrar</button>
+      </form>
+
+      <div id="teste">
+        <div id="formulario-esqueceu-senha">
+          <div id="flex-h3-svg">
+            <div>
+              <h3>Recuperação de Senha</h3>
+            </div>
+            <div>
+              <svg
+                id="excluir"
+                xmlns="http://www.w3.org/2000/svg"
+                height="40"
+                viewBox="0 -960 960 960"
+                width="40"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="linha"></div>
+          <form>
+            <div class="campo">
+              <label for="email-recuperacao">Endereço de E-mail</label>
+              <input
+                type="email"
+                id="email-recuperacao"
+                name="email-recuperacao"
+                placeholder="Digite seu e-mail"
+                required
+              />
+            </div>
+            <button type="submit" class="botao">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
